@@ -1,0 +1,159 @@
+
+/************************ NAVIGATION **************************/
+
+#navbar-default {
+    background: #fff;
+    font-weight: 500;
+    font-family: Comfortaa;
+}
+
+li {
+    display: inline;
+    margin-right: 70px;
+    }
+
+#menu-cluster {
+    margin-left: 120px;
+}
+
+#search {
+    margin-right: 30px;
+}
+
+/******************* BODY CONTENT BELOW HEADER ******************/
+
+
+body {
+    margin-top: 70px;
+}
+
+/* settings for all the headings */
+h1,h2,h4,h5,h6 {
+    /* font-family: Quicksand; */
+    font-family: comfortaa;
+}
+
+h3 {
+    font-family: Quicksand;
+    
+}
+
+/* settings for all of the paragraph fonts */
+p {
+    font-family:Quicksand ;
+    font-size: large;
+}
+
+
+/************************* BANNER SECTION ************************/
+
+#banner img {
+    object-fit: contain;
+    width: 100%;
+}
+
+
+/************************* RESUME SECTION ************************/
+
+#resume {
+    margin-top: 50px;
+ 
+ }
+
+#resume h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#resume .resume-right  {
+   margin-top: 25px;
+}
+
+#resume img {
+    width:90% ;
+    
+} 
+
+
+/************************* TESTIMONIAL SECTION ************************/
+#testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#testimonial p{
+    font-size: 25px;
+    font-family: Bebas+Neue;
+    color: #000;
+}
+
+#testimonial p.customer {
+    font-size: 20px;
+    color: grey;
+}
+
+/************************* RESEARCH SECTION ************************/
+#research h2 {
+    /* font-size: 50px; */
+    margin-bottom: 20px;
+}
+
+#research {
+   margin-top: 50px;
+
+}
+
+
+/**************************** ABOUT SECTION ***************************/
+
+#about {
+    margin-top: 50px;
+}
+
+#about img.right2 {
+    width:100% ;
+    
+ }
+
+
+ /************************** SHOWCASE SECTION *************************/
+
+ .showcase-row {
+     margin-bottom: 25px;
+ }
+
+#showcase img.card-img-top{
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+/**************************** CONTACT SECTION ***************************/
+
+#contact {
+    margin-top: 50px;
+    background: url(../images/business-lng.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:40px;
+    color: white;
+    border-top: #333 7px solid;
+    border-bottom: #333 7px solid;
+ }
+
+ .contact-btn {
+     padding: 2px 40px;
+     font-size: large;
+     /* font-weight: 500; */
+ }
+
+/****************************** FOOTER SECTION ****************************/
+footer {
+    background: rgb(19, 19, 19);
+    padding: 50px 0 30px 0;
+    text-align: left;
+    margin-top: 40px;
+    color: whitesmoke;
+}
